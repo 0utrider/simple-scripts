@@ -3,11 +3,11 @@
 # Google DyDNS Updater by 0utrider
 #
 # Usage:
-#		Performs an HTTPS GET request to update your Google Domains Dynamic DNS
-#			https://support.google.com/domains/answer/6147083
-#		Recommend updating once every 24 hrs using crontab
-#			https://crontab-generator.org/
-#			https://man7.org/linux/man-pages/man5/crontab.5.html
+#	Performs an HTTPS GET request to update your Google Domains Dynamic DNS
+#		https://support.google.com/domains/answer/6147083
+#	Recommend updating once every 24 hrs using crontab
+#		https://crontab-generator.org/
+#		https://man7.org/linux/man-pages/man5/crontab.5.html
 #
 # Dependencies: moreutils (ts), curl, dig
 #
@@ -29,7 +29,7 @@
 #   limitations under the License.
 
 # =================== USER DEFINED VARIABLES ===================
-# NOTE: Do NOT use your Google account credentials! See the support.google.com article linked above.
+# Do NOT use your Google account credentials! See the support.google.com article linked above.
 USERNAME=""
 PASSWORD=""
 HOSTNAME="subdomain.domain.tld"
