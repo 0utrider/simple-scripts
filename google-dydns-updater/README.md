@@ -1,4 +1,4 @@
-# google-dydns-updater
+# Google DyDNS Updater
 
 GDyDNSu is a short script that performs a lookup of your external IP address and then uses curl to send an HTTPS GET request to update your Google Domains Dynamic DNS
 
